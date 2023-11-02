@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        /* h1 {
+            color: rgb(242, 125, 125);
+        } */
+
+        .cred {
+            color: rgb(255, 0, 0);
+        }
+
+        /* .yellow {
+            color: yellow !important;
+        } */
+
+        .brown{
+            color: brown;
+        }
+        [data-x=G]{
+            color: blue;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <h1 class="cred yellow brown" data-x="G">CSS Sepecificity</h1>
+   
+</body>
+
+</html>

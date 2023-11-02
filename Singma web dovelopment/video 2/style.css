@@ -1,0 +1,16 @@
+body{
+    color: red;
+    background-color: black;
+}
+#nav ul{
+    display: flex;
+}
+#nav ul li{
+    list-style: none;
+    margin: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}

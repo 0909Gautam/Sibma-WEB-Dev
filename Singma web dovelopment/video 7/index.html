@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Now you get coding course free</h1>
+    <form action="post">
+        <div>
+            <label for="username"></label>
+            <input id="username" type="text" name="username" placeholder="Enter your Username">
+        </div>
+
+        <div>
+            <label for="Email"></label>
+            <input id="Email" type="text" name="email id" placeholder="Email id">
+        </div>
+
+        <div>
+            <label for="Number"></label>
+            <input id="Number" type="text" name="Number" placeholder="Phone Number">
+        </div>
+
+        <div>
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male </label>
+
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female </label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="eligible" name="eligible" value="yes">
+            <label for="eligible">Are you Eligible</label>
+
+        </div>
+
+        <div>
+            <label for="comment">Enter your comment here</label><br>
+            <textarea name="comment" id="" cols="20" rows="4"></textarea>
+        </div>
+
+        <div>
+            <select name="Language" id="Language">
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+                <option value="Phyton">Phyton</option>
+            </select>
+        </div>
+
+    </form>
+    <div>
+        <button id="submit">submit</button>
+    </div>
+</body>
+
+</html>
