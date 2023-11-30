@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color: white;
+            --background-color: red;
+            --height: 30px;
+            --deop: 0.5;
+
+
+        }
+
+        body {
+            background-color: var(--background-color);
+            opacity: var(--deop);
+        }
+
+        .navbar {
+            opacity: var(--deopacity);
+            height: var(--height);
+        }
+
+        .navbar ul {
+            background-color: var(--background-color);
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar ul li {
+             margin: 10px;
+        }
+
+        .container p {
+            color: var(--color);
+            opacity: var(--deop);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>contact us</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque itaque nostrum hic facilis molestias
+            consectetur repellat eligendi aliquam totam sed ipsa, quis magni consequuntur quasi sapiente omnis expedita,
+            aliquid saepe fuga incidunt. Quas animi deleniti corporis. Esse animi et corporis voluptatum itaque pariatur
+            numquam velit dolor fugiat doloremque, provident corrupti.</p>
+    </div>
+</body>
+
+</html>
